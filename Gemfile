@@ -31,6 +31,8 @@ gem 'devise', '~> 3.2.4'
 
 gem 'paperclip', github: 'thoughtbot/paperclip'
 
+gem 'aws-sdk', '~> 1.20.0'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
