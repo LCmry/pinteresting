@@ -11,7 +11,7 @@ class PinsController < ApplicationController
   end
 
   def new
-    @pin = current_user.pins.build
+    @pin = current_user.pins.build(pin_params)
   end
 
   def edit
