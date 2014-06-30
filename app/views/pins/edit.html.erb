@@ -3,6 +3,13 @@
 
 <%= render 'form' %>
 
-<%= link_to 'Show', @pin %> |
-<%= link_to 'Back', pins_path %>
+<%= link_to @pin do %>
+	<span class="glyphicon glyphicon-asterisk"></span>
+	Show
+<% end %>
+|
+<%= link_to pins_path do %>
+	<span class="glyphicon glyphicon-arrow-left"></span>
+	Back
+<% end %>
 </div>

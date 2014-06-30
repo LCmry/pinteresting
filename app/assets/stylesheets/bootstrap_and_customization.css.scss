@@ -35,6 +35,9 @@ $panel-default-text:				#2c3e50;
 .panel-body {
 	color: #2c3e50;
 }
+.panel-footer {
+	color: #2c3e50;
+}
 
 .show {
 	width: 75%;
@@ -42,7 +45,12 @@ $panel-default-text:				#2c3e50;
 }
 .show img {
 	max-height: 90%;
+	max-width: 100%;
 }
-.btn a:hover {
+a:hover {
 	text-decoration: none;
+}
+
+.pin-pages {
+	color: #ecf0f1;
 }

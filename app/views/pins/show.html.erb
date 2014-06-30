@@ -8,10 +8,9 @@
 		<% if @pin.user == current_user %>
 			<%= link_to edit_pin_path(@pin) do %>
 				<span class="glyphicon glyphicon-pencil"></span>
-				Edit
+				Edit |
 			<% end %>
 		<% end %>
-		 | 
 		<%= link_to pins_path do %>
 			<span class="glyphicon glyphicon-arrow-left"></span>
 			Back
