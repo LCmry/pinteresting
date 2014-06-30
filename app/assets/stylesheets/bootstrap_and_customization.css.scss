@@ -16,9 +16,6 @@ $jumbotron-color: 					#2c3e50;
 
 $panel-default-text:				#2c3e50;
 
-
-
-
 @import 'bootstrap';
 
 .center {
@@ -45,4 +42,7 @@ $panel-default-text:				#2c3e50;
 }
 .show img {
 	max-height: 90%;
+}
+.btn a:hover {
+	text-decoration: none;
 }

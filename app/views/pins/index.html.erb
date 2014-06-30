@@ -7,15 +7,14 @@
         <%= pin.description %>
         <% if pin.user == current_user %>
           <div>
-            <%= link_to  edit_pin_path(pin) do %>
+            <%= link_to edit_pin_path(pin) do %>
               <div class="btn btn-default">
-                <span class="glyphicon glyphicon-pencil" ></span>
-                Edit
+                <span class="glyphicon glyphicon-pencil"></span> Edit
               </div>
             <% end %>
             <%= link_to pin, method: :delete, data: { confirm: 'Are you sure?' } do %>
               <div class="btn btn-default">
-                <span class="glyphicon glyphicon-trash"></span>
+                <span class="glyphicon glyphicon-trash"></span> Delete
               </div>
             <% end %>
           </div>
