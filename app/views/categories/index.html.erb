@@ -1,0 +1,9 @@
+<div class="category-pages">
+	<h1>Categories</h1>
+
+	<% @categories.each do |category| %>
+		<%= link_to category_path(category) do %>
+			<h2><%= category.name %><h2>
+		<% end %>
+	<% end %>
+</div>
