@@ -6,9 +6,7 @@
       <div class="panel-body">
         <p><%= link_to pin.category.name, pin.category %></p>
         <p><%= pin.description %></p>
-        <p><% if pin.user.name %>
-          <%= pin.user.name %>
-          <% else "Update user name" %><% end %></p>
+        
         <% if pin.user == current_user %>
           <div>
             <%= link_to edit_pin_path(pin) do %>
