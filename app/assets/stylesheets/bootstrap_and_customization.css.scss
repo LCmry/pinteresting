@@ -47,8 +47,12 @@ $panel-default-text:				#2c3e50;
 	max-height: 90%;
 	max-width: 100%;
 }
+a {
+	color: #e74c3c;
+}
 a:hover {
 	text-decoration: none;
+	color: #CB2A19;
 }
 
 .pin-pages {
@@ -56,5 +60,11 @@ a:hover {
 }
 
 .category-pages {
+	color: #ecf0f1;
+}
+.category-pages h2 {
+	color: #e74c3c;
+}
+.category-pages h2:hover {
 	color: #ecf0f1;
 }

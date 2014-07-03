@@ -6,7 +6,7 @@ class CategoriesController < ApplicationController
   end
 
   def show
-    @categories = Pin.order("created_at DESC").paginate(:page => params[:page], :per_page => 2)
+    @categories = Pin.order("created_at DESC").paginate(:page => params[:page], :per_page => 50)
   end
 
   def new
