@@ -1,4 +1,4 @@
-$body-bg: 							#34495e;
+$body-bg: 							#ecf0f1;
 
 $navbar-default-bg: 				#2c3e50;
 $navbar-default-link-color: 		#e74c3c;
@@ -10,7 +10,7 @@ $btn-default-bg:					#ecf0f1;
 $btn-primary-color: 				#e74c3c;
 $btn-primary-bg: 					#2c3e50;
 
-$jumbotron-bg: 						#ecf0f1;
+$jumbotron-bg: 						#e1e7e9;
 $jumbotron-heading-color: 			#2c3e50;
 $jumbotron-color: 					#2c3e50;
 
@@ -67,4 +67,19 @@ a:hover {
 }
 .category-pages h2:hover {
 	color: #ecf0f1;
+}
+#header {
+	margin-bottom: 3em;
+	padding-top: 2em;
+	padding-bottom: 6em;
+	background: #e1e7e9;
+}
+#header h1 {
+	color: #e74c3c;
+	font-size: 900%;
+	text-shadow: -3px -3px 2px rgba(0,0,0,.2);
+}
+#index-buttons {
+	position: relative;
+	left: 80%;
 }
