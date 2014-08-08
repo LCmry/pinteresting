@@ -16,8 +16,9 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "About", about_path %></li>
-        <li><%= link_to categories_path if user_signed_in? do %>
-          <span class="glyphicon glyphicon-th-large"></span> Categories
+        <li><%= link_to categories_path do %>
+          <span class="glyphicon glyphicon-th-large"></span>
+          Categories
           <% end %>
         </li>
         <% if user_signed_in? %>
